@@ -14,6 +14,7 @@ Install create react app : sudo npm install -g create-react-app@1.5.2
 create-react-app --help
 create-react-app confusion
 
+add following to package.json
 ,
   "scripts": {
     "start": "react-scripts start",
@@ -21,3 +22,15 @@ create-react-app confusion
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
+There are issues following Professor's instructions.
+///////////////////////////////////////
+
+Using following, fixed the issue:
+sudo npm rm -g create-react-app
+sudo npm install -g create-react-app
+npx create-react-app confusion
+cd confusion
+
+yarn start
+or 
+npm start
